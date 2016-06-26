@@ -40,6 +40,7 @@ public class FragmentMain extends Fragment {
 		Bundle mBundle = new Bundle();
 		mBundle.putString(TEXT_FRAGMENT, text);
 		mFragment.setArguments(mBundle);
+//
 		return mFragment;
 	}
 	
